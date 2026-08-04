@@ -2,10 +2,9 @@
 
 @layer base {
   body {
+    background-color: #090b10 !important;
+    color: #f8fafc !important;
     font-family: 'Inter', sans-serif;
-  }
-  code, pre, .font-mono {
-    font-family: 'JetBrains Mono', monospace;
   }
 }
 
