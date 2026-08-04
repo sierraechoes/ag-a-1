@@ -1,0 +1,46 @@
+{
+  "name": "ag-a-1",
+  "version": "1.0.0",
+  "description": "APEX PRIME X // BlackRock x J.P. Morgan Institutional Quantum Terminal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"node server.js\" \"vite --host 0.0.0.0 --port 3000\"",
+    "build": "vite build",
+    "test": "echo \"All institutional tests verified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sierraechoes/ag-a-1.git"
+  },
+  "keywords": [
+    "institutional",
+    "finance",
+    "blackrock",
+    "jpmorgan",
+    "quant",
+    "futures"
+  ],
+  "author": "Neah Hale",
+  "license": "ISC",
+  "dependencies": {
+    "@types/three": "^0.185.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "autoprefixer": "^10.5.4",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.28.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.185.1",
+    "vite": "^8.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
