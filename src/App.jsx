@@ -5,6 +5,7 @@ import AuthModal from './components/AuthModal';
 import ExecutiveDashboard from './components/ExecutiveDashboard';
 import PortfolioManager from './components/PortfolioManager';
 import FuturesTradingTerminal from './components/FuturesTradingTerminal';
+import TerminalCLI from './components/TerminalCLI';
 import QuantEngines from './components/QuantEngines';
 import Visuals3DStudio from './components/Visuals3DStudio';
 import DarkPoolLiquidity from './components/DarkPoolLiquidity';
@@ -175,6 +176,9 @@ export default function App() {
           )}
           {activeTab === 'futures' && (
             <FuturesTradingTerminal onPlaceOrder={handlePlaceOrder} />
+          )}
+          {activeTab === 'cli' && (
+            <TerminalCLI positions={state.positions} onPlaceOrder={handlePlaceOrder} />
           )}
           {activeTab === 'quant' && (
             <QuantEngines quantModels={state.quantModels} />

@@ -9,6 +9,7 @@ import {
   ShieldAlert, 
   FileCheck, 
   Settings,
+  Terminal,
   ChevronRight,
   Zap
 } from 'lucide-react';
@@ -18,6 +19,7 @@ export default function Sidebar({ activeTab, setActiveTab }) {
     { id: 'dashboard', label: 'Executive Dashboard', icon: LayoutDashboard },
     { id: 'portfolio', label: 'Portfolio & Holdings', icon: Briefcase },
     { id: 'futures', label: 'Futures Execution (1m)', icon: CandlestickChart },
+    { id: 'cli', label: 'Institutional Terminal CLI', icon: Terminal },
     { id: 'quant', label: 'Quantum Quant Engines', icon: Cpu },
     { id: 'studio3d', label: '3D Microstructure & Risk', icon: Box },
     { id: 'darkpool', label: 'Dark Pool & Liquidity', icon: Layers },
